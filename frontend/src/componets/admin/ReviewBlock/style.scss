@@ -1,0 +1,26 @@
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  width: 100%;
+  .reviewList {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    .review{
+      max-width: 300px;
+      width: 100%;
+      p {
+        margin: 0 0 10px 0;
+      }
+      button {
+        padding: 10px 15px;
+        background: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+:root {
+    background-color: #0D0D0D;
+    color: #CCD3D8;
+    height: 100%;
+
+    .AdminImages {
+        width: 1440px;
+
+        padding: 20px 15px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        .imagePhoto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        img {
+            height: 200px
+        }
+
+        button {
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px 15px;
+            background: red;
+            color: white;
+        }
+    }
+
+    .btnAdd {
+        padding: 5px 20px;
+        background: white;
+    }
+
+    .admin_window {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .admin_login {
+        padding: 100px 200px;
+        background: #171717;
+
+        h1 {
+            text-align: center;
+            color: #B4BABE;
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+
+                font-size: 24px;
+                font-weight: 200;
+                margin-bottom: 20px;
+            }
+
+            input {
+                width: 200px;
+                text-align: center;
+                height: 30px;
+                font-size: 26px;
+                margin-bottom: 20px;
+                background: #B4BABE;
+                border-radius: 2px;
+            }
+
+            button {
+                padding: 10px 50px;
+                background: #B4BABE;
+                font-size: 18px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+
+    .questAdmin {
+        display: flex;
+        justify-content: center;
+        padding: 50px 240px;
+        background: #121212;
+
+        .arrow {
+            margin-right: 50px;
+            height: 100%;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .block_1 {
+            display: flex;
+
+            .text {
+                margin-right: 20px;
+
+                input {
+                    color: white;
+                    width: fit-content;
+                    height: fit-content;
+                }
+            }
+
+            img {
+                width: 300px;
+                height: 400px;
+                object-fit: cover;
+                margin-right: 50px;
+            }
+        }
+
+        .block_2 {
+            width: 500px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: first baseline;
+            justify-content: space-between;
+
+            textarea {
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+
+            button {
+                color: white;
+                background: #5B573D;
+                padding: 10px 15px;
+            }
+        }
+    }
+
+    #root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .wrapper {
+        box-sizing: border-box;
+        max-width: 1440px;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        .wrapper {
+            padding: 0 20px;
+        }
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        .wrapper {
+            padding: 0 20px;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .wrapper {
+            padding: 0 20px;
+        }
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+        .wrapper {
+            padding: 0 20px;
+        }
+    }
+}

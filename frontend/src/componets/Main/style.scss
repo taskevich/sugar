@@ -1,0 +1,125 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../assets/BG_main_1.png);
+  height: 500px;
+  width: 100%;
+
+  .main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+
+    h1 {
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    p {
+      max-width: 580px;
+      width: 100%;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 20px;
+    }
+    a {
+      color: white;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+
+      background-image: none;
+      height: 100%;
+      width: 100%;
+
+      .main_text {
+        margin-top: 10px;
+        align-items: center;
+
+        h1 {
+          display: none;
+        }
+
+        p {
+          width: 239px;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
+
+        a {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+
+  }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    background: none;
+    .main_text {
+      align-items: center;
+
+      h1 {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+      }
+      a {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main_text {
+
+      h1 {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      a {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}

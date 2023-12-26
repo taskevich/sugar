@@ -1,0 +1,23 @@
+.info {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  .info {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}

@@ -1,0 +1,126 @@
+.admin {
+
+  width: 100%;
+  height: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin-bottom: 20px;
+  }
+  .element {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+    .questList {
+      background: #171717;
+      padding: 50px 40px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .quest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: min-content;
+        background: none;
+
+        width: min-content;
+        .questLink {
+          background: #121212;
+          padding: 20px 20px;
+          border-radius: 5px;
+        }
+
+        h1 {
+          color: #B4BABE;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        img {
+          width: 250px;
+          height: 300px;
+          object-fit: cover;
+        }
+
+        button {
+          background: #B4BABE;
+          padding: 10px 40px;
+          border-radius: 5px
+        }
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 20%;
+      background: #96999e;
+      padding: 20px 50px;
+
+      p {
+        color: #000000;
+      }
+
+      input {
+        background: #ffffff;
+        border-radius: 2px;
+        margin-bottom: 5px;
+      }
+
+      button {
+        background: #ffffff;
+        padding: 5px 20px;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .quest {
+    h1 {
+      font-size: 24px;
+    }
+  }
+.galleryPage {
+  margin-top: 20px;
+  display: flex;
+  .gallery_quest {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    gap: 10px;
+
+    .questItem {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      img {
+        height: 300px;
+      }
+      button {
+        width: max-content;
+        padding: 10px 15px;
+      }
+    }
+  }
+  button {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+}
+
+}

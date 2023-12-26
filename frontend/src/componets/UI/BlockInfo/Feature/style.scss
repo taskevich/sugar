@@ -1,0 +1,82 @@
+.feature {
+  display: flex;
+
+  margin-bottom: 50px;
+
+  div:first-child {
+    padding: 20px 50px 20px 0;
+  }
+
+  div {
+    border-right: 1px solid #fff;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #CCD3D8;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  div:last-child {
+    border: none;
+    padding: 20px 0 20px 50px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .feature {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    div{
+      border: none;
+      padding: 0;
+    }
+    div:first-child {
+      padding: 0;
+    }
+    div:last-child {
+      padding: 0;
+    }
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  .feature {
+    max-width: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    div{
+      border: none;
+      padding: 0;
+    }
+    div:first-child {
+      padding: 0;
+    }
+    div:last-child {
+      padding: 0;
+    }
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}

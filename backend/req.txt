@@ -1,0 +1,9 @@
+PyJWT
+psycopg2
+sqlalchemy
+pymysql
+fastapi
+uvicorn
+alembic
+python-multipart
+Pillow

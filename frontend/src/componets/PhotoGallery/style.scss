@@ -1,0 +1,24 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.photoGallery {
+  background-color: #171717;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  img {
+    height: 300px;
+
+    object-fit: cover;
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .alice-carousel__stage-item {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+li{
+  list-style: none;
+}
+.privice {
+  margin-bottom: 20px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+ .privice {
+   .wrapper {
+     align-items: flex-start;
+   }
+ }
+}
+@media screen and (min-width: 1025px) and (max-width:1440px) {
+}

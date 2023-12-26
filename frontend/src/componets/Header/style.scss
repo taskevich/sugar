@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Navigate {
+    a {
+      color: #CCD3D8;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+      margin-right: 40px;
+    }
+    .active {
+      border-bottom: 1px solid #CCD3D8;
+    }
+  }
+  .Logotype {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width:480px) {
+    svg {
+      width: 28px;
+    }
+    .Logotype {
+      h1 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width:767px) {
+    svg {
+      width: 28px;
+    }
+    .Logotype {
+      h1 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width:1024px) {
+    svg {
+      width: 42px;
+    }
+    .Logotype {
+      h1 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,29 @@
+.infoImage {
+  margin-right: 50px;
+  width: 100%;
+  max-width: 300px;
+
+  img {
+    max-width: 300px;
+    width: 100%;
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .infoImage{
+    margin: 0 0 30px 0;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  .infoImage {
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}

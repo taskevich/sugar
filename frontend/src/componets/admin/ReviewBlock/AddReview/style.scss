@@ -1,0 +1,22 @@
+.reviewAdd {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: white;
+    input {
+      color: white;
+    }
+    select {
+      color: white;
+      option {
+        color: #0D0D0D;
+      }
+    }
+    button {
+      padding: 10px 15px;
+      background: white;
+    }
+  }
+}
